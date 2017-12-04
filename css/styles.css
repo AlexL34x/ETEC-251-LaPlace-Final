@@ -1,0 +1,220 @@
+﻿body{
+	font-family: Georgia, serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #363636;
+	background: #ededed;
+	background-image: url('../img/portfolio_bg.png');
+	
+}
+.bigFont{
+	font-size: 1.4em;
+}
+
+.container{
+	margin-top: 80px;
+	margin-bottom: 15px;
+	background: #fff;
+}
+
+.vert-centered-parent{
+	display: table;
+	overflow: hidden;
+}
+
+.vert-centered{
+	display: table-cell; 
+	vertical-align: middle;
+}
+.portfolio-container{
+    background-image: url('../img/body_bg.png');
+}
+
+#photo-header{
+	height:180px;
+	float:right;
+}
+#photo{
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	padding: 5px;
+	background: #ededed;
+	border-radius:50%;
+  
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#photo:hover{
+	-webkit-transform:rotate(720deg) ;
+	-moz-transform:rotate(720deg) ;
+	-ms-transform:rotate(720deg) ;
+	-o-transform:rotate(720deg) ;
+	transform:rotate(720deg) ;
+}
+
+#photo img{
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+}
+#text-header{
+	height:180px;
+}
+#text-header p, span{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+#text-header p{
+	font-size: 2.4em;
+}
+#text-header span{
+	font-size: 2em;
+}
+
+.box{
+	margin-bottom: 15px;
+}
+.box h2{
+	color: #4A5EEC;
+	font-size: 1.8em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.box p{
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+#education{
+	margin-top: 20px;
+	position: relative;
+	padding: 1em 0;
+	list-style: none;
+}
+#education-listing{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+#education .year{
+	width: 100%;
+	background: #fff;
+	padding-left: 1px;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+#education .description{
+	display: inline-block;
+	background: #eee;
+	margin-bottom: 10px;
+	position: relative;
+	padding: 10px 10px 0 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#education .description h3{
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+#education .description p{
+	font-size: 1.3em;
+	margin-top: 5px;
+	padding: 0;
+}
+
+.job{
+	margin-bottom: 15px;
+}
+.job .where{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.job .year{
+	font-size: 1.3em;
+	opacity: 0.7;
+}
+.job .profession{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.job .description{
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.project{
+	margin-bottom: 15px;
+}
+.project .title{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.project .description{
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.project-image{
+	
+}
+
+.contact-item{
+	width: 100%;
+	float: left;
+}
+.contact-item .icon{
+	padding: 10px;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	opacity: 0.2;
+}
+.contact-item .fa{
+	font-size: 2em;
+}
+.contact-item .title{
+	width: 80%;
+	width: calc(100% - 55px);
+	font-size: 1.5em;
+	font-weight: 700;
+	opacity: 0.9;
+}
+.contact-item .title.only{
+	margin-top: 10px;
+}
+.contact-item .description{
+	width: 80%;
+	width: calc(100% - 55px);
+	font-size: 1.2em;
+	opacity: 0.7;
+}
+
+.item-skills{
+	height: 30px;
+	background: #4A5EEC;
+	color: #fff;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 1.3em;
+	font-weight: 600;
+	width:0%;
+}
+
+.gray-box{
+	background: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
